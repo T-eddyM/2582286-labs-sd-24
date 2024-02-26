@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Software design Website</title>
+		<style>
+			header {
+				background-color: black;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: space-between;
+				width: 100%;
+			}
+			body {
+				display: flex;
+				align-items: center;
+				flex-direction: column;
+			}
+			article {
+				display: flex;
+				align-items: center;
+				flex-direction: column;
+				border-width: 1px;
+				border-color: gray;
+				border-style: solid;
+				padding-left: 7px;
+				padding-right: 7px;
+				padding-bottom: 10px;
+			}
+			section {
+				display: flex;
+				margin-top: 5px;
+			}
+			li {
+				color: white;
+				list-style-type: none;
+				margin-right: 20px;
+			}
+			h2 {
+				color: white;
+				margin-left: 150px;
+			}
+			nav {
+				display: flex;
+				align-items: center;
+				margin-right: 150px;
+			}
+			.nav-item {
+				cursor: pointer;
+			}
+
+			footer {
+				background-color: black;
+				align-items: center;
+				justify-content: center;
+				display: flex;
+				width: 100%;
+				margin-top: 20px;
+			}
+		</style>
+	</head>
+	<header>
+		<h2>Welcome to Software Design Website</h2>
+		<nav>
+			<li><a class="nav-item">About Us</a></li>
+			<li><a class="nav-item">Services</a></li>
+			<li><a class="nav-item">Contact Us</a></li>
+		</nav>
+	</header>
+	<body>
+		<article style="border-color: white">
+			<h3 style="margin-bottom: 0">About Us</h3>
+			<p style="color: black; margin-top: 3px; margin-bottom: 0">
+				We are a company dedicated to providing excellent services to our customers.
+			</p>
+			<img src="https://netmag.pk/wp-content/uploads/2017/06/technology.jpg" width="600" height="400" />
+		</article>
+		<h3 style="margin-bottom: 0">Our Services</h3>
+		<section>
+			<article>
+				<h3 style="margin-bottom: 0">Web Development</h3>
+				<p style="color: black; margin-top: 2px; margin-bottom: 0">
+					We specialize in creating responsive and user-friendly websites.
+				</p>
+				<img
+					src="https://th.bing.com/th/id/R.ab21e01768fbb661ec105deedea2ff2b?rik=ynDQ7KcG7Xilkg&pid=ImgRaw&r=0"
+					width="600"
+					height="400"
+				/>
+			</article>
+			<article>
+				<h3 style="margin-bottom: 0">Graphics Design</h3>
+				<p style="color: black; margin-top: 2px; margin-bottom: 0">
+					Our designers can bring your ideas to life with stunning visuals.
+				</p>
+				<img
+					src="https://i2.wp.com/www.dpidirect.com/wp-content/uploads/2016/05/digital_signage-1.jpg"
+					width="600"
+					height="400"
+				/>
+			</article>
+		</section>
+	</body>
+	<footer>
+		<p style="color: white">&#169; 2024 The Lucky Company. All rights reserved.</p>
+	</footer>
+</html>
